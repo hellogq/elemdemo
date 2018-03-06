@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/find/find",
+    "pages/order/order",
+    "pages/home/home"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -11,20 +13,32 @@
   },
   "tabBar": {
     "color": "#333",
-    "selectedColor": "red",
-    "backgroundColor":"#fff",
-    "borderStyle":"black",
+    "selectedColor": "#0085ff",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath":"pages/images/home.png",
-        "selectedIconPath":"pages/images/index.png"
+        "iconPath": "pages/images/home.png",
+        "selectedIconPath": "pages/images/index.png"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "日志",
-        "iconPath":"pages/images/home.png",
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "pages/images/home.png",
+        "selectedIconPath": "pages/images/index.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "pages/images/home.png",
+        "selectedIconPath": "pages/images/index.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "pages/images/home.png",
         "selectedIconPath": "pages/images/index.png"
       }
     ]
